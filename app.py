@@ -16,7 +16,7 @@ st.write(
 )
 
 # Load dataset
-df = pd.read_csv("data/test.csv")
+df = pd.read_csv("test.csv")
 
 # Features and target
 X = df.drop(columns=["timestamp", "label", "event_id"])
